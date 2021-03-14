@@ -1,5 +1,76 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
 }
+header {
+    margin: auto;
+    position:static;
+    display: table;
+}
+img{
+    margin: auto;
+    display: table;
+    position:static;
+}
+figcaption{
+    margin: auto;
+    display: table;
+    font-size: smaller;
+    position: static;
+}
+
+nav a{
+    padding: 0px 10px 0px 10px;
+    background-color: gray;
+}
+#featured-property p{
+    width: 800px;
+    margin: auto;
+    line-height: 140%;
+}
+
+
+#details{
+
+ 
+        margin: auto;
+        display: table;
+    position:static;
+    width: 2000px;
+}
+
+#details div {
+    background-color: orange;
+    float: left;
+    width: 20%;
+    text-align: center;
+
+    
+
+
+    
+
+}
+
+
+
+
+
+
+- **As a finishing touch**: Let's clean up the `<div>`s at the bottom of the
+page. All of them should have the same background color, centered text, and
+occupy 25% of the `width` of the bottom row (since we have 4 divs).
+
+## Saving Your Work Remotely
+
+Currently, the work you've done on this assignmnent is only on your local
+machine. To preserve work on your GitHub fork, you will need to stage the
+changes you've made, commit them, and push the commit up to GitHub. Use
+the following commands to do this:
+
+```sh
+git add .
+git commit -m "Completed assignment"
+git push
+```
